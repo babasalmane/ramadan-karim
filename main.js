@@ -55,3 +55,9 @@ function createStars() {
 function clearStars() {
     document.querySelector('.stars').innerHTML = ''; 
 }
+window.onload = function() {
+    setTimeout(() => {
+        toggleLights();
+    }, 1000); // 5000 milliseconds = 5 seconds
+};
+
