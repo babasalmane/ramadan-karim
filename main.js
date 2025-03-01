@@ -58,6 +58,6 @@ function clearStars() {
 window.onload = function() {
     setTimeout(() => {
         toggleLights();
-    }, 1000); // 5000 milliseconds = 5 seconds
+    }, 1500); // 5000 milliseconds = 5 seconds
 };
 
